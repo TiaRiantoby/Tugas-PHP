@@ -1,1 +1,4 @@
-# Tugas-PHP
+![Screenshoot Gambar](https://github.com/TiaRiantoby/Tugas-PHP/tree/main/Screenshoot)
+
+Penjelasan Secara Keseluruhan :
+Program yang saya kembangkan ini adalah aplikasi web sederhana yang memiliki fitur utama seperti pendaftaran dan login pengguna. Di dalam program ini, pengguna dapat membuat akun baru lewat halaman pendaftaran, lalu melakukan login dengan akun yang telah dibuat. Setelah berhasil masuk, pengguna akan diarahkan ke halaman utama dan dapat melakukan beberapa tindakan seperti melihat data, menambah, atau menghapus data tertentu. Semua data disimpan dan terhubung dengan database yang sudah saya buat melalui file `Data. sql`. Aplikasi ini juga memiliki fitur logout untuk mengakhiri sesi pengguna. Secara keseluruhan, aplikasi ini dirancang untuk memudahkan pengelolaan data pengguna dengan sistem autentikasi yang sederhana namun cukup aman.
