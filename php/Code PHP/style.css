@@ -1,0 +1,238 @@
+/* ===== UMUM ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe0f0, #ffd6e7);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff0f5;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== LOGIN & REGISTER ===== */
+body.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 360px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #e91e63;
+    margin-bottom: 25px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: bold;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+    background-color: #d81b60;
+}
+
+.link-button {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #f48fb1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    background-color: #ec407a;
+}
+
+.error-message {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+/* ===== HEADER PROFIL ===== */
+header {
+    text-align: center;
+    background-color: #f8bbd0;
+    padding: 20px;
+    border-bottom: 2px solid #ec407a;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #e91e63;
+    margin-bottom: 10px;
+}
+
+header .info {
+    font-size: 20px;
+    color: #444;
+    margin: 5px 0;
+}
+
+/* ===== TODO LIST ===== */
+form.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form.todo-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ec407a;
+    border-radius: 8px;
+}
+
+form.todo-form button {
+    background-color: #ec407a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form.todo-form button:hover {
+    background-color: #d81b60;
+}
+
+/* Judul tengah */
+.title {
+    text-align: center;
+    color: #ec407a;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* List Tugas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffe6f0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Tombol tindakan */
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a,
+.status {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.actions a.done {
+    background-color: #4caf50;
+}
+
+.actions a.delete {
+    background-color: #f44336;
+}
+
+.actions a:hover.done {
+    background-color: #43a047;
+}
+
+.actions a:hover.delete {
+    background-color: #d32f2f;
+}
+
+.status {
+    background-color: #9e9e9e;
+    font-weight: bold;
+}
+
+/* Tombol Logout */
+.link-button.logout {
+    display: block;
+    text-align: center;
+    background-color: #e91e63;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+.link-button.logout:hover {
+    background-color: #d81b60;
+}
+
+label {
+    font-weight: bold;
+    color: #ec407a;
+}
